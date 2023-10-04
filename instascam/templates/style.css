@@ -1,0 +1,129 @@
+* {
+    margin: 0;  
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-container {
+    
+    margin-top: 50px;
+    text-align: center;
+    
+   
+}
+
+
+.container > img {
+    width: 300px;
+}
+
+.container {
+    width: 375px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 20px;
+    border: 1px solid darkgrey;
+    
+}
+
+
+input {
+    display: inline-block;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 14px;
+    padding: 9px 10px;
+    border: 1px solid lightgrey; 
+    
+}
+
+.submit-btn {
+    background-color: rgba(159, 209, 238, 0.979);
+    color: white;
+    padding: 9px;
+    width: 86%;
+    border: none;
+    border-radius: 3px;
+}
+
+.or-line {
+    margin: 20px 0;
+    color: grey;
+}
+
+hr.line {
+    display: inline-block;
+    border: 1px solid lightgrey;
+    width: 100px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+.fb {
+    font-size: 18px;
+    margin-bottom: 10px;   
+}
+
+.fb >a {
+    color: darkblue;
+}
+
+.forgot {
+    font-size: 14px;
+    
+}
+
+.container-bottom {
+    border: 1px solid darkgrey;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center; 
+}
+
+.get-app {
+    margin: 20px 0;
+}
+
+.app-icons > img{
+    height: 40px;
+    padding: 0 3px;
+}
+
+@media screen and (min-width: 1000px) {
+    .primary-container {
+        width: 750px;
+        display: flex; 
+    }
+
+    .phone-container {
+        width: 50%;
+        margin-right: 20px;
+        background: bottom / 100% url(https://assets.codepen.io/6060109/IG-phone.jpeg);
+        background-repeat: no-repeat;
+    }
+
+    .content-container {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .container-bottom {
+        width: 100%;
+        
+    }
+
+    
+}
